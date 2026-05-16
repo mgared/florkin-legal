@@ -1,0 +1,11 @@
+title: Florkin
+theme: jekyll-theme-minimal
+
+# Rewrite /privacy-policy.html -> /privacy, etc.
+permalink: /:basename
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
